@@ -303,9 +303,8 @@
                 <input type="hidden" id="influencerid12" name="influencerid12" value="<?=$influencer['idinfluencer']?>">
                        
                 <div class="mb-4 ">
-                    <textarea class="input-redes" id="reseniaInfluencer" name="reseniaInfluencer" style="resize: none; width: 100%;" rows="6" placeholder="">
-                        <?php echo $influencer['resenia']; ?>    
-                    </textarea>
+                    
+                    <textarea class="input-redes" id="reseniaInfluencer" name="reseniaInfluencer" style="resize: none; width: 100%;" rows="6" placeholder=""><?php echo $influencer['resenia']; ?></textarea>
                 </div>
 
             
@@ -325,7 +324,7 @@
             <div id="experience" class="row mt-4">
                          
             
-                <?php for ($i=0; $i <count($influencermarca) ; $i++) {?>
+            <?php for ($i=0; $i <count($influencermarca) ; $i++) {?>
                 <form action="/influencer/eliminarMarcas" method="POST" class="register-form pt-2" id="eliminarMarcas" name="eliminarMarcas" enctype="multipart/form-data">
                 
                        
@@ -638,9 +637,11 @@
                     <div class="file-upload">
                         
                         <div class="image-upload-wrap">
-                            <input id="newfoto" name="newfoto" class="file-upload-input" type='file'   />
+                            <input id="newfoto" name="newfoto" class="" type='file'   />
                             
                         </div>
+                        <br>
+                        <br>
                         </br>
                         <div class="text-center">
                             <button type="submit" class="btn btn-get-info user-decription btn-lg" >Cambiar Foto de Perfil</button>
