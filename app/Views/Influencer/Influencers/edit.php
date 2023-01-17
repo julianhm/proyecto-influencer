@@ -305,6 +305,9 @@
                 <div class="mb-4 ">
                     
                     <textarea class="input-redes" id="reseniaInfluencer" name="reseniaInfluencer" style="resize: none; width: 100%;" rows="6" placeholder=""><?php echo $influencer['resenia']; ?></textarea>
+                    <div>
+                        oeeee
+                    </div>
                 </div>
 
             
